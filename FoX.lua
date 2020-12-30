@@ -2322,7 +2322,7 @@ Text = [[
 ≪━━━━━━FX━━━━━━≫
  ❃∫ ↬[DEVELOPER](t.me/x_ggx)
 ≪━━━━━━FX━━━━━━≫
- ❃∫ ↬[DEVELOPER 2](t.me/QvQvQQ)
+ ❃∫ ↬[DEVELOPER](t.me/QvQvQQ)
 ]]
 send(msg.chat_id_, msg.id_,Text)
 return false
