@@ -2313,15 +2313,15 @@ end
 
 if text == 'السورس' or text == 'سورس' or text == 'يا سورس' then
 Text = [[
-≪━━━━━━𝘽𝙆━━━━━━≫
+≪━━━━━━FX━━━━━━≫
  ❃∫ ↬FoX 𝐓𝐄𝐀𝐌
-≪━━━━━━𝘽𝙆━━━━━━≫
+≪━━━━━━FX━━━━━━≫
  ❃∫ ↬[Channel FoX](t.me/IIIIlI8) 
-≪━━━━━━𝘽𝙆━━━━━━≫
+≪━━━━━━FX━━━━━━≫
  ❃∫ ↬[Information](t.me/IIIIlI8)
-≪━━━━━━𝘽𝙆━━━━━━≫
+≪━━━━━━FX━━━━━━≫
  ❃∫ ↬[DEVELOPER](t.me/x_ggx)
-≪━━━━━━𝘽𝙆━━━━━━≫
+≪━━━━━━FX━━━━━━≫
  ❃∫ ↬[DEVELOPER 2](t.me/QvQvQQ)
 ]]
 send(msg.chat_id_, msg.id_,Text)
