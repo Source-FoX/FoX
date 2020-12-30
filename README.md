@@ -1,11 +1,11 @@
 
-# BOYKA
+# FoX
 
-# <p align="center" style="color:#cb3349" >سورس بويكا اول على تلكرام ⌯︙
+# <p align="center" style="color:#cb3349" >سورس فوكس اول على تلكرام ⌯︙
 
 # <p align="center" style="color:#cb3349" > شروحات عن السورس ادخل الى قناة السورس
 
-# <p align="center" style="color:#cb3349" > [اصـــغـــط هــنـــا لــلــدخــول الــى الــقــنــاة](https://telegram.me/BOBBW) <br>
+# <p align="center" style="color:#cb3349" > [اصـــغـــط هــنـــا لــلــدخــول الــى الــقــنــاة](https://telegram.me/IIIIlI8) <br>
 
 # <p align="center"> كود تنصيب السورس ⌯︙
 
@@ -23,10 +23,4 @@
 
   
 
-# <p align="center" style="color:#cb3349" > [مــطــور ســورس](https://telegram.me/CCFRR) <br>
-
-  
-
-  
-
-# <p align="center" style="color:#cb3349" > [كـــروب خــاص لــمـطـوريـن](https://telegram.me/XQRXQ) <br>
+# <p align="center" style="color:#cb3349" > [مــطــور ســورس](https://telegram.me/QvQvQQ) <br>
