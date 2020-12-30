@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-cd $HOME/BOYKA
+cd $HOME/FoX
 install() {
 rm -rf $HOME/.telegram-cli
 sudo apt-get update -y
