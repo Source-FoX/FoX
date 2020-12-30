@@ -10324,7 +10324,8 @@ local Chat_id = data.chat_id_
 local Msg_id = data.message_id_
 local Text = data.payload_.data_
 if Text == '/m1' then
-local text = "❃∫ اوامر الحمايه اتبع مايلي ...
+local text = [[
+❃∫ اوامر الحمايه اتبع مايلي ...
 •━━━━━━━━━━━━━•ٴ
 ❃∫ قفل + فتح ← الامر… 
 ❃∫ ← { بالتقيد ، بالطرد ، بالكتم }
@@ -10356,13 +10357,15 @@ local text = "❃∫ اوامر الحمايه اتبع مايلي ...
 ❃∫ الجهات
 ❃∫ الاشعارات
 •━━━━━━━━━━━━━•ٴ
-彡 .[FoX 𝘊𝘩𝘢𝘯𝘯𝘦𝘭](t.me/IIIIlI8)➢"
+彡 .[FoX 𝘊𝘩𝘢𝘯𝘯𝘦𝘭](t.me/IIIIlI8)➢
+]]
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' ..data.chat_id_ .. '&text=' .. URL.escape(text).."&reply_to_message_id="..data.message_id_.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup=")
 DeleteMessage(data.chat_id_, {[0] = Msg_id})  
 end
 end
 if Text == '/m2' then
-local text = "❃∫ اهلا بك عزيزي …
+local text = [[
+❃∫ اهلا بك عزيزي …
 ❃∫ اوامر تفعيل وتعطيل …
 •━━━━━━━━━━━━━•ٴ
 ❃∫ تفعيل ~ تعطيل + امر …
@@ -10388,13 +10391,15 @@ local text = "❃∫ اهلا بك عزيزي …
 ❃∫ حساب العمر
 ❃∫ الابراج
  •━━━━━━━━━━━━━•ٴ
-彡 .[FoX 𝘊𝘩𝘢𝘯𝘯𝘦𝘭](t.me/IIIIlI8)➢"
+彡 .[FoX 𝘊𝘩𝘢𝘯𝘯𝘦𝘭](t.me/IIIIlI8)➢
+]]
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' ..data.chat_id_ .. '&text=' .. URL.escape(text).."&reply_to_message_id="..data.message_id_.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup=")
 DeleteMessage(data.chat_id_, {[0] = Msg_id})  
 end
 end
 if Text == '/m3' then
-local text = "❃∫ اهلا بك عزيزي …
+local text = [[
+❃∫ اهلا بك عزيزي …
 ❃∫ اوامر الوضع ~ اضف …
 •━━━━━━━━━━━━━•ٴ
 ❃∫ اضف / حذف ← رد
@@ -10410,13 +10415,15 @@ local text = "❃∫ اهلا بك عزيزي …
 ❃∫ وصف
 ❃∫ تكرار + عدد
  •━━━━━━━━━━━━━•ٴ
-彡 .[FoX 𝘊𝘩𝘢𝘯𝘯𝘦𝘭](t.me/IIIIlI8)➢"
+彡 .[FoX 𝘊𝘩𝘢𝘯𝘯𝘦𝘭](t.me/IIIIlI8)➢
+]]
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' ..data.chat_id_ .. '&text=' .. URL.escape(text).."&reply_to_message_id="..data.message_id_.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup=")
 DeleteMessage(data.chat_id_, {[0] = Msg_id})  
 end
 end
 if Text == '/m4' then
-local text = "❃∫ اهلا بك عزيزي …
+local text = [[
+❃∫ اهلا بك عزيزي …
 ❃∫ اوامر مسح / الحذف ← امر
 •━━━━━━━━━━━━━•ٴ
 ❃∫ مسح + امر …
@@ -10444,13 +10451,15 @@ local text = "❃∫ اهلا بك عزيزي …
 ❃∫ امر 
 ❃∫ الاوامر المضافه
 •━━━━━━━━━━━━━━•ٴ
-彡 .[FoX 𝘊𝘩𝘢𝘯𝘯𝘦𝘭](t.me/IIIIlI8)➢"
+彡 .[FoX 𝘊𝘩𝘢𝘯𝘯𝘦𝘭](t.me/IIIIlI8)➢
+]]
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' ..data.chat_id_ .. '&text=' .. URL.escape(text).."&reply_to_message_id="..data.message_id_.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup=")
 DeleteMessage(data.chat_id_, {[0] = Msg_id})  
 end
 end
 if Text == '/m5' then
-local text = "❃∫ اهلا بك عزيزي …
+local text = [[
+❃∫ اهلا بك عزيزي …
 ❃∫ اوامر تنزيل ورفع …
 •━━━━━━━━━━━━━━•ٴ
 ❃∫ …
@@ -10480,13 +10489,15 @@ local text = "❃∫ اهلا بك عزيزي …
 ❃∫ تغير امر الاوامر
 ❃∫ تغير امر م1 ~ الئ م10
  •━━━━━━━━━━━━━━•ٴ
-彡 .[FoX 𝘊𝘩𝘢𝘯𝘯𝘦𝘭](t.me/IIIIlI8)➢"
+彡 .[FoX 𝘊𝘩𝘢𝘯𝘯𝘦𝘭](t.me/IIIIlI8)➢
+]]
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' ..data.chat_id_ .. '&text=' .. URL.escape(text).."&reply_to_message_id="..data.message_id_.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup=")
 DeleteMessage(data.chat_id_, {[0] = Msg_id})  
 end
 end
 if Text == '/m6' then
-local text = "❃∫ اهلا بك عزيزي …
+local text = [[
+❃∫ اهلا بك عزيزي …
 ❃∫ اوامر المجموعه …
 •━━━━━━━━━━━━━•ٴ
 ❃∫ الاوامر … كالتالي
@@ -10527,13 +10538,15 @@ local text = "❃∫ اهلا بك عزيزي …
 ❃∫ نسبه الحب 
 ❃∫ نسبه رجوله
 •━━━━━━━━━━━━━•ٴ
-彡 .[FoX 𝘊𝘩𝘢𝘯𝘯𝘦𝘭](t.me/IIIIlI8)➢"
+彡 .[FoX 𝘊𝘩𝘢𝘯𝘯𝘦𝘭](t.me/IIIIlI8)➢
+]]
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' ..data.chat_id_ .. '&text=' .. URL.escape(text).."&reply_to_message_id="..data.message_id_.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup=")
 DeleteMessage(data.chat_id_, {[0] = Msg_id})  
 end
 end
 if Text == '/m7' then
-local text = "❃∫ الاوامر التحشيش …
+local text = [[
+❃∫ الاوامر التحشيش …
 •━━━━━━━━━━━━━•ٴ
 ❃∫ رفع + تنزيل ← الامࢪ
 •━━━━━━━━━━━━━•ٴ
@@ -10570,13 +10583,15 @@ local text = "❃∫ الاوامر التحشيش …
 ❃∫ رفع + تنزيل ← الحاته
 ❃∫ تاك للحاتات
 •━━━━━━━━━━━━━•ٴ
-彡 .[FoX 𝘊𝘩𝘢𝘯𝘯𝘦𝘭](t.me/IIIIlI8)➢"
+彡 .[FoX 𝘊𝘩𝘢𝘯𝘯𝘦𝘭](t.me/IIIIlI8)➢
+]]
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' ..data.chat_id_ .. '&text=' .. URL.escape(text).."&reply_to_message_id="..data.message_id_.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup=")
 DeleteMessage(data.chat_id_, {[0] = Msg_id})  
 end
 end
 if Text == '/m8' then
-local text = "❃∫اوامر المطورين 
+local text = [[
+❃∫اوامر المطورين 
  •━━━━━━━━━━━━━•ٴ
 ❃∫ تفعيل ← تعطيل 
 ❃∫ المجموعات ← المشتركين ← الاحصائيات
@@ -10591,13 +10606,15 @@ local text = "❃∫اوامر المطورين
 ❃∫ اذاعه 
 ❃∫ ردود المطور 
  •━━━━━━━━━━━━━•ٴ
-彡 .[FoX 𝘊𝘩𝘢𝘯𝘯𝘦𝘭](t.me/IIIIlI8)➢"
+彡 .[FoX 𝘊𝘩𝘢𝘯𝘯𝘦𝘭](t.me/IIIIlI8)➢
+]]
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' ..data.chat_id_ .. '&text=' .. URL.escape(text).."&reply_to_message_id="..data.message_id_.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup=")
 DeleteMessage(data.chat_id_, {[0] = Msg_id})  
 end
 end
 if Text == '/m9' then
-local text = "❃∫ اهلا بك عزيزي √
+local text = [[
+❃∫ اهلا بك عزيزي √
 ❃∫ اوامر مطور الاساسي...↓
 •━━━━━━━━━━━━━•ٴ
 ❃∫ تفعيل
@@ -10660,13 +10677,15 @@ local text = "❃∫ اهلا بك عزيزي √
 ❃∫ تنظيف المشتركين
 ❃∫ تنظيف الكروبات
 •━━━━━━━━━━━━━•ٴ
-彡 .[FoX 𝘊𝘩𝘢𝘯𝘯𝘦𝘭](t.me/IIIIlI8)➢"
+彡 .[FoX 𝘊𝘩𝘢𝘯𝘯𝘦𝘭](t.me/IIIIlI8)➢
+]]
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' ..data.chat_id_ .. '&text=' .. URL.escape(text).."&reply_to_message_id="..data.message_id_.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup=")
 DeleteMessage(data.chat_id_, {[0] = Msg_id})  
 end
 end
 if Text == '/m10' then
-local text = "❃∫ اهلا بك عزيزي √
+local text = [[
+❃∫ اهلا بك عزيزي √
 ❃∫ اوامر الاعضاء كتالي…↓
 •━━━━━━━━━━━━━•ٴ
 ❃∫ عرض معلوماتك ↑↓
@@ -10692,11 +10711,13 @@ local text = "❃∫ اهلا بك عزيزي √
 ❃∫ شنو رئيك بهاي بالرد
 ❃∫ تحب هذا
 •━━━━━━━━━━━━━•ٴ
-彡 .[FoX 𝘊𝘩𝘢𝘯𝘯𝘦𝘭](t.me/IIIIlI8)➢"
+彡 .[FoX 𝘊𝘩𝘢𝘯𝘯𝘦𝘭](t.me/IIIIlI8)➢
+]]
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' ..data.chat_id_ .. '&text=' .. URL.escape(text).."&reply_to_message_id="..data.message_id_.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup=")
 DeleteMessage(data.chat_id_, {[0] = Msg_id})  
 end
 end
+
 --------------------------------------------------------------------------------------------------------------
 if text and not database:sismember(bot_id..'Spam:Texting'..msg.sender_user_id_,text) then
 database:del(bot_id..'Spam:Texting'..msg.sender_user_id_) 
