@@ -9,7 +9,7 @@
 
 # <p align="center"> كود تنصيب السورس ⌯︙
 
- # <p align="center" style="color:#cb3349" > ``git clone git clone https://github.com/BOYKATEAM/BOYKA ;cd BOYKA;chmod +x install;./install``
+ # <p align="center" style="color:#cb3349" > ``git clone git clone https://github.com/Source-FoX/FoX ;cd FoX;chmod +x install;./install``
 
 # <p align="center"> بعد انتهاء عمليه تثبيت السورس ⌯︙
 
