@@ -1019,7 +1019,7 @@ send(msg.chat_id_, msg.id_,' ❅┇ اصدار سورس فوكس \n ❅┇ ال�
 end
 if text == 'قناه تحديثات البوت ❃' and SudoBot(msg) then 
 database:del(bot_id..'Srt:Bot') 
-send(msg.chat_id_, msg.id_,' ❅┇ [تحديثات البوت](t.me/BOBBW) \n ❅┇ [قناه السورس](t.me/IIIIlI8)')
+send(msg.chat_id_, msg.id_,' ❅┇ [تحديثات البوت](t.me/IIIIlI8) \n ❅┇ [قناه السورس](t.me/IIIIlI8)')
 end
 if text == "ضع اسم للبوت ❃" and SudoBot(msg) then  
 database:setex(bot_id..'Set:Name:Bot'..msg.sender_user_id_,300,true) 
