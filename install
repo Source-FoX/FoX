@@ -22,7 +22,7 @@ sudo chmod +x tg
 lua FoX.lua
 sudo chmod +x FoX
 sudo chmod +x ./FX
-./BK
+./FX
 }
 if [ "$1" = "install" ]; then
 install
